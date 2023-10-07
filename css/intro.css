@@ -1,0 +1,24 @@
+#intro {
+  background-color: var(--white-grey);
+  padding: 117px 0;
+}
+
+
+.intro_sub {
+  text-align: center;
+  font-size: 1.4rem;
+  line-height: 4rem;
+  width: 752px;
+}
+
+.intro_sub span {
+  color: var(--secondary-color);
+}
+
+
+/* responsive */
+@media screen and (max-width:1015px) {
+  .intro_sub{
+    width: 548px;
+  }
+}

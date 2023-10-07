@@ -1,0 +1,65 @@
+#subscribe{
+  background-image: url(../img/image/Layer\ 226.png);
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  position: relative;
+}
+
+#subscribe .container i{
+  font-size: 3.3rem;
+}
+
+.container .content{
+  font-size: 2rem;
+  text-transform: uppercase;
+  margin-top: 25px;
+  letter-spacing: 4px;
+  margin-bottom: 47px;
+}
+
+.input input{
+  width: 353px;
+  height: 66px;
+  background-color: transparent;
+  border: 2px solid white;
+}
+
+.input button{
+  padding: 3rem 2.9rem;
+  text-transform: uppercase;
+  background-color: var(--primary-color);
+  color: white;
+  font-weight: 500;
+  letter-spacing: 2px;
+  border-radius: 1px;
+}
+
+.btn_up{
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary-color) ;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  z-index: 5;
+  top: calc(100% - 25px);
+  left: calc(50% - 25px);
+  opacity: 89%;
+}
+
+.btn_up i{
+  font-size: 2rem;
+  color: white;
+}
+
+/* responsive */
+@media screen and (max-width: 910px) {
+  .input input{
+    height: 55px;
+  }
+}

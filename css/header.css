@@ -1,0 +1,58 @@
+#header {
+  height: 802px;
+  background-image: url(../img/image/Layer\ 6.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.mobile_nav {
+  position: absolute;
+  top: 62px;
+  right: 231px;
+  cursor: pointer;
+}
+
+.mobile_nav i {
+  font-size: 2.8rem;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 69px;
+}
+
+.hero .hero_title {
+  font-size: 5.3rem;
+  text-transform: uppercase;
+  font-weight: lighter;
+  letter-spacing: 10px;
+}
+
+.hero .hero_sub {
+  margin-top: 35px;
+  font-size: 2rem;
+  letter-spacing: 5px;
+  text-align: center;
+}
+
+.header_button {
+  font-size: 2rem;
+  text-transform: uppercase;
+  color: white;
+  padding: 27px 39px;
+  background-color: var(--primary-color);
+  letter-spacing: 5px;
+  border-radius: 5px;
+  box-shadow: var(--box-shadow-0);
+}
+
+/* Responsive */
+@media screen and (max-width: 1559px) {
+  .mobile_nav {
+    right: 85px;
+  }
+}

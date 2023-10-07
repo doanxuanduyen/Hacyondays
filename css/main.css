@@ -1,0 +1,51 @@
+@import url(./reset.css);
+@import url(./header.css);
+@import url(./intro.css);
+@import url(./servicesGeneric.css);
+@import url(./servicesIphone.css);
+@import url(./counter.css);
+@import url(./portfolio.css);
+@import url(./subscribe.css);
+@import url(./footer.css);
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  max-width: 1130px;
+  margin: 0 auto;
+}
+
+.main_contain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.grey {
+  color: var(--grey);
+}
+
+.intro_title {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 2rem;
+  letter-spacing: 3px;
+}
+
+.step {
+  display: flex;
+  gap: 3.5rem;
+  margin-top: 3rem;
+  margin-bottom: 7rem;
+  align-items: flex-start;
+}
+
+.step .line{
+  width: 234px;
+  height: 2px;
+}

@@ -1,0 +1,78 @@
+#services_iphone {
+  height: 700px;
+  background-image: url(../img/image/Shape\ 5.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  background-color: black;
+}
+
+.service_iphone-right {
+  right: 0;
+  top: 0;
+  position: absolute;
+  height: 100%;
+  background-color: white;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.service_iphone-right .main_contain .step {
+  margin-top: 27px;
+  margin-bottom: 47px;
+}
+
+.sub {
+  width: 600px;
+}
+
+.sub p {
+  font-size: 1.4rem;
+  line-height: 2;
+  margin-bottom: 27px;
+}
+
+.dots {
+  display: flex;
+  gap: 10px;
+  margin-top: 141px;
+}
+
+.dot {
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+  border: 2px solid var(--grey);
+}
+
+.dot:first-child {
+  background-color: var(--secondary-color);
+}
+
+/* responsive */
+@media screen and (max-width: 1357px) {
+  .service_iphone-right{
+    width: 60%;
+  }
+}
+
+@media screen and (max-width: 1059px) {
+  .service_iphone-right{
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 923px) {
+  .sub{
+    width: 451px;
+  }
+}
+
+@media screen and (max-width: 655px) {
+  .sub{
+    width: 301px;
+  }
+}
