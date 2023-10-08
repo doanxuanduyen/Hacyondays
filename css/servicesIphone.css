@@ -76,3 +76,9 @@
     width: 301px;
   }
 }
+
+@media screen and (max-width: 482px) {
+  .service_iphone-right{
+    width: 90%;
+  }
+}

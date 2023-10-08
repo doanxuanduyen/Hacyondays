@@ -56,3 +56,9 @@
     right: 85px;
   }
 }
+
+@media screen and (max-width: 680px) {
+  .hero_sub {
+    letter-spacing: 3px;
+  }
+}

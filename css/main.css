@@ -16,7 +16,7 @@
 }
 
 .container {
-  max-width: 1130px;
+  max-width: 1660px;
   margin: 0 auto;
 }
 
@@ -48,4 +48,10 @@
 .step .line{
   width: 234px;
   height: 2px;
+}
+
+@media screen and (max-width:764px) {
+  .step .line{
+    width: 122px;
+  }
 }

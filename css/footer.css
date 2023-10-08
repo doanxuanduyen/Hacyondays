@@ -18,6 +18,7 @@
   width: 361px;
   height: 153px;
   background-color: white;
+  box-shadow: var(--box-shadow-1);
 }
 
 .infor-item i{
