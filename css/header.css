@@ -30,6 +30,7 @@
   text-transform: uppercase;
   font-weight: lighter;
   letter-spacing: 10px;
+  text-align: center;
 }
 
 .hero .hero_sub {
@@ -58,7 +59,13 @@
 }
 
 @media screen and (max-width: 680px) {
-  .hero_sub {
+.hero .hero_sub {
     letter-spacing: 3px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .hero .hero_sub{
+    letter-spacing: 2px;
   }
 }

@@ -77,8 +77,20 @@
   }
 }
 
+@media screen and (max-width: 554px) {
+  #services_iphone{
+    padding-bottom: 20px;
+  }
+}
+
 @media screen and (max-width: 482px) {
   .service_iphone-right{
     width: 91%;
+  }
+}
+
+@media screen and (max-width:320px) {
+  .service_iphone-right{
+    width: 100%;
   }
 }

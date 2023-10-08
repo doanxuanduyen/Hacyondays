@@ -45,3 +45,9 @@
     flex-direction: column;
   }
 }
+
+@media screen and (max-width:320px) {
+  .content_sub{
+    width: 248px;
+  }
+}

@@ -18,11 +18,12 @@
   margin-top: 25px;
   letter-spacing: 4px;
   margin-bottom: 47px;
+  text-align: center;
 }
 
 .input input{
   width: 353px;
-  height: 66px;
+  height: 68px;
   background-color: transparent;
   border: 2px solid white;
 }
@@ -60,6 +61,22 @@
 /* responsive */
 @media screen and (max-width: 910px) {
   .input input{
-    height: 55px;
+    height: 54px;
+  }
+}
+
+@media screen and (max-width: 558px) {
+  .input input{
+    height: 40px;
+    width: 200px;
+  }
+  .input button{
+    padding: 2.1rem 2.9rem;
+  }
+}
+
+@media screen and (max-width: 549px) {
+  .input button{
+    padding: 1.5rem 2.9rem;
   }
 }

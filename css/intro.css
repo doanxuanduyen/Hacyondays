@@ -28,3 +28,9 @@
     width: 348px;
   }
 }
+
+@media screen and (max-width:320px) {
+  .intro_sub{
+    width: 248px;
+  }
+}
