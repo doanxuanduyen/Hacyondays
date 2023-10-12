@@ -67,7 +67,7 @@
   }
 }
 
-@media screen and (max-width:320px) {
+@media screen and (max-width:392px) {
   .square{
     width: 308px;
   }

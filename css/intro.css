@@ -29,7 +29,7 @@
   }
 }
 
-@media screen and (max-width:320px) {
+@media screen and (max-width:392px) {
   .intro_sub{
     width: 248px;
   }
